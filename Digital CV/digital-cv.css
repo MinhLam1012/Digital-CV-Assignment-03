@@ -1,0 +1,82 @@
+body {
+    min-height: 100vh;
+    margin: 0px;
+    background-color: #0000FF;
+}
+
+h2 {
+    color: #0000FF;
+}
+
+hr {
+    border: none;
+    margin: 0 0 1rem 0;
+}
+
+.style-hr {
+    border: none;
+    border-top: 2px dashed #68C5CB !important;
+    width: 210px;
+}
+
+.height-goal-team {
+  height: 410px;
+}
+
+.height-scopes-primary {
+  height: 270px;
+}
+
+.item-container {
+    margin: 4px;
+    display: grid;
+    gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+.bg-item {
+  background-color: #F0F8FF;
+}
+
+.goal {
+    grid-column: 1/3;
+    grid-row: 1/2;
+}
+
+.scopes {
+    grid-column: 1/3;
+    grid-row: 2/3;
+    width: 700px;
+}
+
+.team {
+    grid-column: 3/4;
+    grid-row: 1/2;
+    width: 380px;
+}
+
+.primary {
+    grid-column: 3/4;
+    grid-row: 2/3;
+}
+
+.timeline {
+    grid-column: 4/5;
+    grid-row: 1/3;
+    width: 330px;
+}
+
+.timeline-border {
+    border: 2px solid #696a6a;
+    border-radius: 50%;
+    background-color: #9E88FF;
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 0.2rem;
+}
+
+.ic-border {
+    width: 50px;
+    height: 50px;
+}

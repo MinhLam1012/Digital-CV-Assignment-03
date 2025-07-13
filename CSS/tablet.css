@@ -1,0 +1,204 @@
+@media screen and (max-device-width: 1024px) and (min-device-width: 601px) {
+  body {
+    margin: 0;
+  }
+  nav img{
+    display: none;
+  }
+  #goal-info {
+    padding: 0 !important;
+    margin: 0 !important;
+    width: 100%;
+  }
+  .height {
+    height: 423px;
+  }
+  #text {
+    text-align: start !important;
+    padding-left: 50px;
+  }
+  #content-info {
+    width: 700px !important;
+  }
+  .job-item {
+    display: grid !important;
+    grid-template-columns: 50% 50% !important;
+    grid-template-rows: auto auto !important;
+    column-gap: 20px !important;
+  }
+  .container-ex {
+    grid-column: 1/2;
+    grid-row: 1/3;
+    width: 100%;
+    height: 85%;
+  }
+  .container-learn{
+    grid-column: 2/3;
+    grid-row: 1/2;
+    width: 100%;
+    height: fit-content;
+  }
+  .container-act {
+    grid-column: 2/3;
+    grid-row: -2/-1;
+    width: 100%;
+    height: fit-content;
+  }
+  .container-hobby {
+    grid-column: 1/2;
+    grid-row: 3/4;
+    width: 100%;
+    height: 150%;
+  }
+  .container-lang {
+    grid-column: 2/3;
+    grid-row: -1/4;
+    width: 100%;
+    height: fit-content;
+  }
+  .container-skills {
+    grid-column: 1/2;
+    grid-row: 4/5;
+    width: 100%;
+    height: fit-content;
+  }
+  .tab-style {
+   width: 100%;
+  }
+  .cer-container {
+        /* Adjust horizontal margin for tablet view if needed */
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+
+    .cer-container .h2 {
+        /* Ensure title padding is consistent with desktop feel */
+        padding-top: 2.5rem; /* Adjust as needed */
+        padding-left: 2.5rem; /* Adjust as needed */
+        margin-bottom: 1.5rem;
+    }
+
+    /* Row for certificates - ensures flex behavior for columns */
+    .row.g-0 {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0;
+        margin-right: 0;
+        /* The border-bottom and padding are already in HTML for this row */
+    }
+
+    /* Column sizing for certificates (two columns on tablet) */
+    .col-md-6 {
+        flex: 0 0 50%;
+        max-width: 50%;
+        box-sizing: border-box; /* Include padding and border in element's total width */
+        margin-bottom: 1.5rem; /* Consistent bottom margin for each column */
+    }
+
+    /* Padding for the first certificate column */
+    .col-md-6.mb-4.ps {
+        padding-left: 1.5rem; /* Adjust padding as needed */
+    }
+
+    /* Border and padding for the second certificate column */
+    .col-md-6.mb-4.border-start {
+        border-left: 1px solid #d6c08d !important; /* Apply the border-start with specific color */
+        padding-left: 1.5rem; /* Adjust padding as needed */
+    }
+
+    /* Flexbox for image and text within each certificate card */
+    .d-flex.gap-4.align-items-center {
+        display: flex;
+        gap: 1.5rem; /* Matches Bootstrap's gap-4 (1.5rem) */
+        align-items: center; /* Align items vertically in the middle */
+    }
+    .pm {
+      padding-left: 25px !important;
+    }
+    /* Image sizing for certificates on tablet */
+    .img-cer {
+        width: 100px; /* Adjusted image size for tablet view to match image reference */
+        height: 100px; /* Keep aspect ratio for contained image */
+        object-fit: contain; /* Ensure the entire image is visible within the bounds */
+        flex-shrink: 0; /* Prevent image from shrinking */
+        padding-left: 0px !important;
+    }
+
+    /* Font sizes for certificate details, overriding inline styles for better tablet fit */
+    /* Targeting the parent div with inline font-size: 1.5rem */
+    .d-flex.gap-4.align-items-center > div[style*="font-size: 1.5rem"] {
+        font-size: 1.1rem !important; /* Overall text container font size, adjusted for tablet */
+    }
+    /* Targeting the certificate title with inline font-size: 1.2rem */
+    .tab-style,
+    .d-flex.gap-4.align-items-center > div > div[style*="font-size: 1.2rem"] {
+        font-size: 1rem !important; /* Certificate title font size, adjusted for tablet */
+        padding-bottom: 0.5rem;
+    }
+    /* Targeting the muted text with inline font-size: 1.1rem */
+    .text-muted,
+    .d-flex.gap-4.align-items-center > div > div[style*="font-size: 1.1rem"] {
+        font-size: 0.85rem !important; /* Info text font size, adjusted for tablet */
+        color: #6c757d; /* Standard muted text color */
+    }
+
+    /* Padding for the third certificate row */
+     .row.pt-4.pb-5 {
+        padding-top: 1.5rem; /* Adjusted padding */
+        padding-bottom: 2rem; /* Adjusted padding */
+        /* For the third certificate, align to start (left) */
+        display: flex;
+        justify-content: flex-start; /* Align content to the left */
+    }
+
+    /* Specific styling for the third certificate column to align left */
+    .row.pt-4.pb-5 > .col-md-6 {
+        flex: 0 0 auto; /* Allow content to define width */
+        max-width: 50%; /* Constrain width to half of the container */
+        margin-left: 0; /* Remove auto margin to align left */
+        margin-right: auto; /* Push content to the left */
+    }
+    
+  }
+
+    .pm {
+      margin-left: 0px !important;
+    }
+
+    .img-title {
+        width: 100%;
+        height: auto;
+        object-fit: cover;
+    }
+
+    .border-pro {
+        border-bottom: 1px solid #e0e0e0;
+        padding: 0.75rem 1rem;
+    }
+
+    .date-pro {
+        margin-right: 0.5rem;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        font-size: 0.8rem; /* Table font size, reduced from 0.9rem */
+    }
+
+    table tr.border-pro {
+        border-bottom: 1px solid #e0e0e0;
+    }
+
+    table td {
+        padding: 0.75rem 1rem;
+        vertical-align: top; /* Align table content to top */
+    }
+
+    table td.h-50 {
+        width: 30%; /* Adjust width for description column in table */
+    }
+  
+    .job-container {
+      height: fit-content;
+    }

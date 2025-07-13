@@ -1,0 +1,71 @@
+@media (min-width: 320px) and (max-width: 769px) {
+
+    .item-container {
+        grid-template-rows: auto auto auto auto auto;
+        grid-template-columns: auto;
+    }
+
+    .goal {
+        grid-column: 1/2;
+        grid-row: 1/2;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .goal-item {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .goal-text {
+        width: 100%;
+        text-align: start;
+        white-space: normal;
+        max-width: none;
+        padding-right: 0 !important;
+    }
+
+    .goal i,
+    .team i,
+    .primary i {
+        min-width: 48px;
+        align-self: center;
+        text-align: center;
+    }
+
+    .scopes {
+        grid-column: 1/2;
+        grid-row: 2/3;
+    }
+
+    .scopes-row {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .scopes-in,
+    .scopes-out {
+        width: 100%;
+        text-align: start;
+        white-space: normal;
+        max-width: none;
+        padding-right: 0 !important;
+        padding-bottom: 30px !important;
+    }
+
+    .team {
+        grid-column: 1/2;
+        grid-row: 3/4;
+    }
+
+    .primary {
+        grid-column: 1/2;
+        grid-row: 4/5;
+    }
+
+    .timeline {
+        grid-column: 1/2;
+        grid-row: 5/6;
+    }
+}
