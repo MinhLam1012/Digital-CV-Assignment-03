@@ -9,13 +9,13 @@
     width: 450px;
     flex-direction: column;
   }
-  #lylich {
+  #personal {
     margin-right: 15px;
   }
-  #chungchi {
+  #certificate {
     margin-left: 7px;
   }
-  #duan {
+  #project {
     margin-right: 18px;
   }
   #goal-info {
