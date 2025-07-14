@@ -5,6 +5,10 @@
     column-gap: 0 !important;
   }
 }
+body a {
+  text-decoration: none !important;
+  color: #000 !important;
+}
 
 /* form css */
 .hide {
@@ -324,10 +328,6 @@ th, td {
   padding-bottom: 25px;
 }
 
-#duan a{
-  text-decoration: none !important;
-  color: #000 !important;
-}
 .job-container {
   position: relative;
   padding-bottom: 2.5rem;
