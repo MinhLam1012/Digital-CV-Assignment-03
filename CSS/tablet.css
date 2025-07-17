@@ -184,5 +184,5 @@
     }
   
     .job-container {
-      height: fit-content;
+      height: auto;
     }
