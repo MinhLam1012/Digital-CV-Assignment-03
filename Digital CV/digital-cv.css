@@ -20,11 +20,11 @@ hr {
 }
 
 .height-goal-team {
-  height: 410px;
+    height: 410px;
 }
 
 .height-scopes-primary {
-  height: 270px;
+    height: 270px;
 }
 
 .item-container {
@@ -33,8 +33,9 @@ hr {
     gap: 15px;
     grid-template-columns: repeat(4, 1fr);
 }
+
 .bg-item {
-  background-color: #F0F8FF;
+    background-color: #F0F8FF;
 }
 
 .goal {

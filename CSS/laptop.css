@@ -1,10 +1,3 @@
-@media (max-width: 768px) {
-  .job-item,
-  .project-item {
-    grid-template-columns: 1fr !important;
-    column-gap: 0 !important;
-  }
-}
 body a {
   text-decoration: none !important;
   color: #000 !important;
@@ -14,16 +7,19 @@ body a {
 .hide {
   display: none !important;
 }
+
 #personal-info-form {
   text-align: left;
   padding-left: 5rem !important;
   padding-right: 5rem !important;
 }
+
 #personal-info-form .form-group {
   display: block;
   gap: 0;
   align-items: flex-start;
 }
+
 #personal-info-form .form-label {
   display: block;
   margin-bottom: 0.5rem;
@@ -31,6 +27,7 @@ body a {
   color: #6c757d;
   float: left;
 }
+
 #personal-info-form .form-control {
   max-width: 100%;
   width: 100%;
@@ -40,6 +37,7 @@ body a {
   box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.075);
   margin-bottom: 0.5rem;
 }
+
 #personal-info-form .error-message {
   color: red;
   font-size: 0.875rem;
@@ -47,6 +45,7 @@ body a {
   margin-bottom: 1rem;
   float: left;
 }
+
 #personal-info-form .btn-primary {
   background-color: #0d6efd;
   border-color: #0d6efd;
@@ -56,16 +55,17 @@ body a {
   cursor: pointer;
   display: block;
 }
+
 #personal-info-form .btn-primary:hover {
   background-color: #0b5ed7;
   border-color: #0a58ca;
 }
 
 .col-md-6.bg-personal .style-title {
-  padding-left: 5rem !important;
+  padding-left: 5rem;
   padding-top: 1.5rem;
   padding-bottom: 1rem;
-  margin-bottom: 0 !important;
+  margin-bottom: 0;
   font-size: 1.5rem;
   color: #333;
 }
@@ -75,7 +75,7 @@ body a {
   height: 100px;
 }
 
-body{
+body {
   font-family: Cabri light;
 }
 
@@ -88,46 +88,51 @@ header h3 {
   font-family: 'Calibri Light', Calibri, Arial, sans-serif;
 }
 
-.higher-img{
+.higher-img {
   width: 100%;
   height: 100%;
   max-width: fit-content;
   border-radius: 50%;
   background-color: white;
 }
-.profile-img-box{
+
+.profile-img-box {
   border-radius: 50%;
   position: absolute;
   border: 7px solid #eee;
   width: 100px;
   height: 100px;
 }
+
 .img-nav {
   border-width: 7px !important;
-  width:110px;
-  height:110px;
-  object-fit:cover;
+  width: 110px;
+  height: 110px;
+  object-fit: cover;
 }
+
 .p-left-100 {
   padding-left: 100px;
 }
+
 .p-right-100 {
   padding-right: 100px;
 }
+
 .icon-navbar {
-  color: rgb(37,171,216);
+  color: rgb(37, 171, 216);
   font-size: smaller;
 }
 
-@media only screen and (max-width: 2000px) {
-  #text {
-    padding-bottom: 202px;
-    padding-right: 40px;
-    padding-left: 50px;
-    color: #888;
-    height: 322px;
-  }
+
+#text {
+  padding-bottom: 202px;
+  padding-right: 40px;
+  padding-left: 50px;
+  color: #888;
+  height: 322px;
 }
+
 
 .info-padding {
   padding-right: 280px;
@@ -140,6 +145,7 @@ header h3 {
 .bg-personal {
   background-color: #ddd;
 }
+
 .pm {
   padding-left: 100px;
   margin-left: 60px;
@@ -150,132 +156,156 @@ header h3 {
   color: #888;
 }
 
-.info-ttcn{
+.info-ttcn {
   display: inline-block;
   margin-bottom: 2px;
   color: #888;
 }
-.style-title{
+
+.style-title {
   font-family: Arial;
   font-size: 30px;
   margin-top: 30px;
 }
+
 #job-li li::marker {
   color: #199CDB;
 }
-.icon-box{
+
+.icon-box {
   display: inline-block;
   color: #aaa;
   font-size: 40px;
   justify-self: end;
 }
-.icon{
-  color: rgb(37,171,216);
+
+.icon {
+  color: rgb(37, 171, 216);
   font-size: 15px;
 }
-.job-item{
+
+.job-item {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr) !important;
   font-family: Arial;
   margin: 20px;
-  column-gap: 100px;
+  column-gap: 20px !important;
 }
 
-.pd-bottom{
+.pd-bottom {
   padding-bottom: 100px;
 }
 
-.job-container{
+.job-container {
   display: grid;
   grid-template-rows: auto auto auto;
   border: 0.5px solid #ddd;
   display: block;
   height: 450px;
 }
-.job-container .title-container{
+
+.job-container .title-container {
   display: grid;
   grid-template-columns: 75% 25%;
 }
-.exper{
+
+.exper {
   font-weight: bold;
   font-size: 30px;
 }
+
 .icon-talent {
   color: #aaa;
   font-size: 40px;
 }
-#hobbies-gap{
+
+#hobbies-gap {
   gap: 20px;
 }
-.icon-style{
-  color: rgb(37,171,216);
+
+.icon-style {
+  color: rgb(37, 171, 216);
   width: 60px;
   height: 60px;
 }
-.hb-info{
+
+.hb-info {
   display: block;
   padding-top: 20px;
   font-size: smaller;
   text-align: center;
   color: #888;
 }
-.span-blue{
+
+.span-blue {
   background: #199cdb;
   display: inline-block;
   height: 2px;
   margin-right: 10px;
   width: 45px;
 }
-.span-grey{
+
+.span-grey {
   background: #aaa;
   display: inline-block;
   height: 1px;
   margin-right: 10px;
   width: 45px;
 }
+
 .ps {
   padding-left: 100px;
 }
-.cer-container{
+
+.cer-container {
   background: #eee;
   font-family: Arial;
 }
-.title-cer{
+
+.title-cer {
   font-size: 30px;
   padding-bottom: 50px;
 }
-.title-sma-cer{
-  width: 350px; 
+
+.title-sma-cer {
+  width: 350px;
   padding-bottom: 20px;
 }
-.col-1{
+
+.col-1 {
   display: grid;
   grid-template-columns: 50% 50%;
 }
-.col-2{
+
+.col-2 {
   display: grid;
   grid-template-columns: 50%;
 }
-.img-cer{
+
+.img-cer {
   width: 180px;
   height: 100px;
   padding-left: 30px;
 }
-.project-item{
+
+.project-item {
   display: grid;
-  grid-template-columns: repeat(3,1fr);
+  grid-template-columns: repeat(3, 1fr);
   font-family: Arial;
   margin: 20px;
   column-gap: 100px;
 }
+
 .h {
   height: 329px;
 }
+
 .btn-color {
   background-color: #3075B4;
   border-radius: 10px;
 }
-.project-container{
+
+.project-container {
   display: grid;
   grid-template-rows: auto auto auto;
   border: 0.5px solid #ddd;
@@ -283,45 +313,52 @@ header h3 {
   height: fit-content;
   width: 100%;
 }
-.project-container .img-title{
+
+.project-container .img-title {
   width: 100%;
   height: 100%;
   max-width: fit-content;
 }
-.border-pro{
+
+.border-pro {
   border-top: 0.5px solid #ddd;
   border-collapse: collapse;
 }
-.CV{
+
+.CV {
   padding-top: 20px;
   padding-bottom: 20px;
   padding-left: 20px;
   font-size: 15px;
 }
-.date-pro{
-  background-color: rgb(37,171,216);
+
+.date-pro {
+  background-color: rgb(37, 171, 216);
   display: inline-block;
   color: white;
   border-radius: 20px;
   padding: 5px 10px 5px 10px;
 }
+
 table {
   border-collapse: collapse;
   width: 100%;
 }
 
-th, td {
+th,
+td {
   padding: 8px;
   text-align: left;
   border-bottom: 1px solid #ddd;
 }
+
 .col-md-6.bg-personal .style-title {
-    padding-left: 5rem !important;
-    padding-top: 1.5rem;
-    padding-bottom: 1rem;
-    margin-bottom: 0 !important;
-    font-size: 1.5rem;
-    color: #333;
+  padding-left: 5rem !important;
+  padding-top: 1.5rem;
+  padding-bottom: 1rem;
+  margin-bottom: 0 !important;
+  font-size: 1.5rem;
+  color: #333;
 }
 
 #learn {
@@ -379,10 +416,9 @@ th, td {
   margin-bottom: 0.5rem;
 }
 
-.job-container .title-container + .skill-details-content {
+.job-container .title-container+.skill-details-content {
   padding-top: 1rem;
 }
 
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
-
